@@ -1,7 +1,7 @@
 FROM sandy1709/catuserbot:slim-buster
 
 #clonning repo 
-RUN https://github.com/aliyefhx/BotYaa
+RUN https://github.com/aliyefhx/BotYaa /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
